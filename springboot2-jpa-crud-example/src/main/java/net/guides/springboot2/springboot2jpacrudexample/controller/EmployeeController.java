@@ -24,6 +24,7 @@ import net.guides.springboot2.springboot2jpacrudexample.repository.EmployeeRepos
 @RestController
 @RequestMapping("/api/v1")
 public class EmployeeController {
+
 	@Autowired
 	private EmployeeRepository employeeRepository;
 
